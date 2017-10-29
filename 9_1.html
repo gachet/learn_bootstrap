@@ -22,34 +22,87 @@
 	<body>
 		<form action="#">
 
-			<label for="firstName">First Name:</label>
-			<input type="text" autofocus required id="firstName" placeholder="First Name"><br>
+			<div class="form-group">
+				<label for="firstName">First Name:</label>
+				<input type="text" autofocus required id="firstName" placeholder="First Name" class="form-control">
+			</div>
 
-			<label for="lastName">Last Name:</label>
-			<input type="text" required id="lastName" placeholder="Last Name"><br>
+			<div class="form-group">
+				<label for="lastName">Last Name:</label>
+				<input type="text" required id="lastName" placeholder="Last Name" class="form-control">
+			</div>
 
-			<label for="email">Email:</label>
-			<input type="email" required id="email" placeholder="Email Address"><br>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" required id="email" placeholder="Email Address" class="form-control">
+			</div>
 
-			<label for="homePhone">Home Phone:</label>
-			<input type="tel" id="homePhone" placeholder="Home Phone" pattern="\([0-9]{3}]) [0-9]{4}-[0-9]{4}"><br>
+			<div class="form-group">
+				<label for="homePhone">Home Phone:</label>
+				<input type="tel" id="homePhone" placeholder="Home Phone" pattern="\([0-9]{3}]) [0-9]{4}-[0-9]{4}" class="form-control">
+			</div>
 
-			<label for="workPhone">Work Phone:</label>
-			<input type="tel" id="workPhone" placeholder="Home Phone" pattern="\([0-9]{3}]) [0-9]{4}-[0-9]{4}"><br>
+			<div class="form-group">
+				<label for="workPhone">Work Phone:</label>
+				<input type="tel" id="workPhone" placeholder="Home Phone" pattern="\([0-9]{3}]) [0-9]{4}-[0-9]{4}" class="form-control">
+			</div>
 
-			<label for="url">URL:</label>
-			<input tyupe="url" id="url" placeholder="URL"><br>
+			<div class="form-group">
+				<label for="url">URL:</label>
+				<input tyupe="url" id="url" placeholder="URL" class="form-control">
+			</div>
 
-			<label for="address1">Address 1:</label>
-			<input type="text" id="address1" placeholder="Address (line 1)"><br>
+			<div class="form-group">
+				<label for="address1">Address 1:</label>
+				<input type="text" id="address1" placeholder="Address (line 1)" class="form-control">
+			</div>
 
-			<label for="address2">Address 2:</label>
-			<input type="text" id="address1" placeholder="Address (line 2)"><br>
+			<div class="form-group">
+				<label for="address2">Address 2:</label>
+				<input type="text" id="address1" placeholder="Address (line 2)" class="form-control">
+			</div>
 
-			<label for="city">City:</label>
-			<input type="text" id="city" placeholder="City"><br>
+			<div class="form-group">
+				<label for="city">City:</label>
+				<input type="text" id="city" placeholder="City" class="form-control">
+			</div>
 
-			<label
+			<div class="form-group">
+				<label for="state">State:</label>
+				<select id="state" class="form-control">
+					<option>State</option>
+					<option>Beijing</option>
+					<option>Shanghai</option>
+					<option>Tianjin</option>
+					<option>Chongqing</option>
+					<option>HeBei</option>
+					<option>Shan1Xi</option>
+					<option>Shan3Xi</option>
+					<option>HeiLongJiang</option>
+					<option>JiLin</option>
+					<option>LiaoNing</option>
+					<option>ShanDong</option>
+					<option>NeiMongGu</option>
+					<option>XinJiang</option>
+					<option>XiZang</option>
+					<option>others...</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="zip">Zip Code:</label>
+				<input type="number" id="zip" placeholder="Zip Code" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="country">Country:</label>
+				<select id="country" class="form-control">
+					<option>China</option>
+					<option>Others...</option>
+				</select>
+			</div>
+
+			<input type="submit" value="Contact" class="form-control">
 		</form>
 
 		<!-- jQuery (necessary for Bootstrap's Javascript plugins) -->
