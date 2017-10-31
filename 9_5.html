@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>内联表单</title>
+		<title>隐藏标签表单</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,12 +22,12 @@
 		<form action="#" class="form-inline">
 
 			<div class="form-group">
-				<label for="email">Email Address:</label>
+				<label for="email" class="sr-only">Email Address:</label>
 				<input type="email" required id="email" placeholder="Email Address" class="form-control">
 			</div>
 
 			<div class="form-group">
-				<label for="password">Password:</label>
+				<label for="password" class="sr-only">Password:</label>
 				<input type="password" required id="password" placeholder="Password" class="form-control">
 			</div>
 

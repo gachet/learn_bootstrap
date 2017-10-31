@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>内联表单</title>
+		<title>复选与单选</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,26 +19,48 @@
 	</head>
 
 	<body>
-		<form action="#" class="form-inline">
+		
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" value="one">
+				Option One
+			</label>
+		</div>
 
-			<div class="form-group">
-				<label for="email">Email Address:</label>
-				<input type="email" required id="email" placeholder="Email Address" class="form-control">
-			</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" value="two">
+				Option Two
+			</label>
+		</div>
 
-			<div class="form-group">
-				<label for="password">Password:</label>
-				<input type="password" required id="password" placeholder="Password" class="form-control">
-			</div>
+		<div class="checkbox disabled">
+			<label>
+				<input type="checkbox" value="three" disabled>
+				Option Three - Disabled
+			</label>
+		</div>
 
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> Remember Me
-				</label>
-			</div>
+		<div class="radio">
+			<label>
+				<input type="radio" value="r-one">
+				First Radio Button
+			</label>
+		</div>
 
-			<button type="submit" class="btn btn-default">Login</button>
-		</form>
+		<div class="radio">
+			<label>
+				<input type="radio" value="r-two">
+				Second Radio Button
+			</label>
+		</div>
+
+		<div class="radio disabled">
+			<label>
+				<input type="radio" value="r-three" disabled>
+				Three Radio Button
+			</label>
+		</div>
 
 		<!-- jQuery (necessary for Bootstrap's Javascript plugins) -->
 		<script src="jquery/3.2.1/jquery-3.2.1.min.js"></script>
